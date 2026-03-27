@@ -230,8 +230,8 @@ export default function ThreadLoop() {
           onMouseEnter={e => e.currentTarget.style.opacity = 0.8}
           onMouseLeave={e => e.currentTarget.style.opacity = 0.5}
         >
-          <span style={{ fontSize: pw(16), fontWeight: 300, color: '#000', fontFamily: FONT, letterSpacing: '0.1em' }}>
-            PLACEHOLDER
+         <span style={{ fontSize: pw(16), fontWeight: 300, color: '#000', fontFamily: FONT, letterSpacing: '0.1em' }}>
+          COMING SOON
           </span>
         </div>
 
@@ -254,7 +254,7 @@ export default function ThreadLoop() {
           fontSize: pw(18), fontWeight: 400,
           color: '#000', fontFamily: FONT,
         }}>
-          name of the project
+          Coming Soon
         </div>
 
       </div>
