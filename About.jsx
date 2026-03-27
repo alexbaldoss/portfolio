@@ -1,5 +1,6 @@
 // src/pages/About.jsx
 import { Link } from 'react-router-dom'
+import photo from './alessandro.jpeg'
 
 const C = '#C7D1C2'
 const FONT = "'Univers Next Pro', 'Univers LT Std', 'Helvetica Neue', Helvetica, Arial, sans-serif"
@@ -94,7 +95,7 @@ export default function About() {
       </div>
 {/* ── TOP RIGHT — Photo ─────────────────────────────────────── */}
 <img
-  src="/src/assets/alessandro.jpeg"
+ src={photo}
   style={{
     position: 'absolute',
     left: pw(961),
