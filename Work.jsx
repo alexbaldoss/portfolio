@@ -257,18 +257,28 @@ export default function Work() {
         left: '50%', bottom: ph(36),
         transform: 'translateX(-50%)',
       }}>
-        <button style={{
-          backgroundColor: C,
-          border: 'none',
-          borderRadius: pw(50),
-          padding: `${ph(14)} ${pw(48)}`,
-          fontSize: pw(16),
-          fontWeight: 400,
-          fontFamily: FONT,
-          letterSpacing: '0.1em',
-          cursor: 'pointer',
-          color: '#000',
-        }}>RESUME</button>
+        href="/resume.pdf"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    backgroundColor: C,
+    border: 'none',
+    borderRadius: pw(50),
+    padding: `${ph(14)} ${pw(48)}`,
+    fontSize: pw(16),
+    fontWeight: 400,
+    fontFamily: FONT,
+    letterSpacing: '0.1em',
+    cursor: 'pointer',
+    color: '#000',
+    textDecoration: 'none',
+    display: 'inline-block',
+  }}>RESUME</a>
+```
+
+Commit message:
+```
+Fix #9 - Make RESUME button functional with link to PDF
       </div>
 
       {/* ── LOGO BOTTOM RIGHT ─────────────────────────────────────── */}
