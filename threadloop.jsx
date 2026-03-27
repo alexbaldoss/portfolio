@@ -178,19 +178,24 @@ export default function ThreadLoop() {
         marginBottom: pw(160),
         gap: pw(24),
       }}>
-        <button style={{
-          backgroundColor: C,
-          border: 'none',
-          borderRadius: pw(50),
-          padding: `${pw(20)} ${pw(40)}`,
-          fontSize: pw(16),
-          fontWeight: 400,
-          fontFamily: FONT,
-          letterSpacing: '0.1em',
-          cursor: 'pointer',
-          color: '#000',
-          flexShrink: 0,
-        }}>PROTOTYPE</button>
+        href="https://www.figma.com/proto/yscm5LZh2cTy2e0j1idBZN/Untitled?node-id=1-1705&starting-point-node-id=1%3A1705&t=NaWaQKFz0fYZ17Di-1"
+  target="_blank"
+  rel="noopener noreferrer"
+  style={{
+    backgroundColor: C,
+    border: 'none',
+    borderRadius: pw(50),
+    padding: `${pw(20)} ${pw(40)}`,
+    fontSize: pw(16),
+    fontWeight: 400,
+    fontFamily: FONT,
+    letterSpacing: '0.1em',
+    cursor: 'pointer',
+    color: '#000',
+    textDecoration: 'none',
+    display: 'inline-block',
+    flexShrink: 0,
+  }}>PROTOTYPE</a>
         <div style={{ flex: 1, height: '1px', backgroundColor: C }} />
       </div>
 
